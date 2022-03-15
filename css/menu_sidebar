@@ -1,0 +1,15 @@
+.dropdown .drop {
+    cursor: pointer;
+
+}
+
+.sidebar a:hover,
+.dropdown:hover
+.drop, .drop:focus {
+    background: #6f6eff;
+}
+/*стили выпадающих*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
