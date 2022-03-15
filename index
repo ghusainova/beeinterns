@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beeline</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+  </head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <p><small class="name_company">билайн</small></p>
+                <p><small class="year">2022</small></p>
+                <h1 class="title">BEEINTERNS</h1>
+            </div>
+            <div class="menu"></div>
+        </div>
+        <div class="sidebar">
+            <a href="#home">ПРОГРАММА</a>
+            <a href="#news">МЕНТОРЫ</a>
+            <div class="dropdown">
+                <a href="#contact" onclick="myFunction()" class="drop">ЛЕКЦИИ
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">HTML/CSS</a>
+                        <a href="#">GIT</a>
+                        <a href="#">JavaScript</a>
+                        <a href="#">React</a>
+                        <a href="#">Angular</a>
+                        <a href="#">Data</a>
+                    </div>
+                </a>
+            </div>
+            <a href="#about">ПРАВИЛА ПОСТУПЛЕНИЯ</a>
+            <a href="#about">НОВОСТИ</a>
+            <a href="#about">ОБРАТНАЯ СВЯЗЬ</a>
+
+
+        </div>
+        <div class="content">
+
+            <!--1 CARD-->
+            <div class="card">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="image/1.png" class="card-image">
+                        <button class="top-left">Лекция</button>
+                     </div>
+                     <h3 class="card-title">Структура HTML</h3>
+                     <p class="card-text">Назначение блоков: head, body</p>
+                </div>
+                <div class="card-footer">
+                    <p class="time">01.02.2022</p>
+                    <button type="button" class="button">Смотреть
+                </div>
+            </div>
+
+            <!--2 CARD-->
+            <div class="card">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="image/2.png" class="card-image">
+                        <button class="top-left">Лекция</button>
+                    </div>
+                    <h3 class="card-title">Подключение стилей</h3>
+                    <p class="card-text">Виды подключения стилей, шрифтов</p>
+                </div>
+                <div class="card-footer">
+                    <p class="time">03.02.2022</p>
+                    <button type="button" class="button">смотреть
+                </div>
+            </div>
+
+            <!--3 CARD-->
+            <div class="card">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="image/3.png" class="card-image">
+                        <button class="top-left">Лекция</button>
+                    </div>
+                    <h3 class="card-title">CSS</h3>
+                    <p class="card-text">Базовый синтаксис CSS: селекторы, </p>
+                </div>
+                <div class="card-footer">
+                    <p class="time">08.02.2022</p>
+                    <button type="button" class="button">смотреть
+                </div>
+            </div>
+
+            <!--4 CARD-->
+            <div class="card">
+                <div class="card-content">
+                    <div class="image">
+                        <img src="image/4.png" class="card-image">
+                        <button class="top-left">Лекция</button>
+                    </div>
+                    <h3 class="card-title">Наследствие и каскад</h3>
+                    <p class="card-text">Наследие и каскад</p>
+                </div>
+                <div class="card-footer">
+                    <p class="time">10.02.2022</p>
+                    <button type="button" class="button">смотреть
+                </div>
+            </div>
+        </div>
+        <div class="footer">футер</div>
+    </div>
+
+</body>
+</html>
